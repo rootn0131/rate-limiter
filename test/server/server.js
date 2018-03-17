@@ -1,6 +1,6 @@
 const redis = require('redis');
 const express = require('express');
-const rateLimiter = require('rate-limiter');
+const rateLimiter = require('../../lib/index');
 
 const app = express();
 
