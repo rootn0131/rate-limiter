@@ -35,3 +35,7 @@ the time range you wish to count the amount of requests, note that the time is i
 #### client
 
 the redis database client invoked by `const client = redis.createClient();`
+
+## testing
+
+`npm test`
